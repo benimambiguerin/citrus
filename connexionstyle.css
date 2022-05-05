@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Prompt:wght@300&display=swap');
+
+
+body
+{
+	margin:0%;
+}
+
+#tete_de_page
+{
+	display: flex;
+	justify-content: space-between;
+	background-color:  #8AD6F9;
+}
+
+input
+ {
+	border: solid 1px #F3F5F4;
+	border-radius: 4px;
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	font-family: 'Prompt', sans-serif;
+}
+
+input:hover
+{
+	background-color: #F7F7F7;
+	transition-duration: 0.4s;
+}
+
+
+nav
+{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	width: 80%;
+	font-size: small;
+	margin-right: 30px;
+}
+
+nav a
+{
+	color: black;
+	text-decoration: none;
+	font-family: 'Prompt', sans-serif;
+	transition-duration: 0.4s;
+}
+
+.logo a
+{
+	text-decoration: none;
+	color: white;
+}
+
+
+nav a:hover
+{
+	color: #00AFB9;
+}
+
+.menu
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 60%;
+	height: 49px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: white;
+	border-radius: 30px 30px 30px 30px;
+	border: solid 1px white;
+}
+
+.connexion
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 20%;
+	margin-right: 25px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: white;
+	border-radius: 0px 30px 30px 0px;
+}
+
+nav ul
+{
+	list-style-type: none;
+}
+
+.accueil
+{
+	height: 200px;
+	background-color: #FE9638;
+	display: flex;
+	padding-left: 100px;
+	align-items: center;
+	font-family: 'Prompt', sans-serif;
+}
+
+.text
+{
+	color: white;
+	font-size: 40px;
+	
+}
+
+.acc
+{
+	color: white;
+	text-decoration-line: overline;
+}
+
+#accueil
+ {
+	 display: flex;
+	 width: 100%;
+	 align-items: center;
+	 justify-content: center;
+	 font-family: 'Prompt', sans-serif;
+	 font-size: x-large;
+	 margin-top: 150px;
+	 margin-bottom: 200px;
+ }
+ 
+input
+ {
+	border: solid 1px #C6D2D0;
+	border-radius: 4px;
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	font-family: 'Prompt', sans-serif;
+}
+
+input:hover
+{
+	background-color: #F7F7F7;
+	transition-duration: 0.4s;
+}
+
+.logo
+{
+	color: white;
+	font-size: xx-large;
+	font-family: 'Dancing Script', cursive;
+}
+
+#login
+{
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+	font-family: 'Prompt', sans-serif;
+}
+
+#login a
+{
+	text-decoration: none;
+	color: #00AFB9;
+	transition-duration: 0.4s;
+}
+
+#login a:hover
+{
+	color: #006f75;
+}
+
+.champs
+{
+	width: 45%;
+	margin-right: 20px;
+	height: 600px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color:  #F3F5F4;
+	border-radius: 25px;
+}
+
+.image
+{
+	width: 45%;
+	margin-right: 20px;
+	height: 600px;
+	background-image: url("images/image_connexion.jpeg");
+	background-repeat: no-repeat;
+	border-radius: 25px;
+}
+
+input
+ {
+	border: solid 1px #C6D2D0;
+	border-radius: 4px;
+	width: 400px;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	font-family: 'Prompt', sans-serif;
+ }
+ 
+.form-control
+ {
+	border: solid 1px #F3F5F4;
+	border-radius: 4px;
+	width: 400px;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	font-family: 'Prompt', sans-serif;
+ }
+ 
+.form-control:hover
+ {
+	 background-color: #F7F7F7;
+	 transition-duration: 0.4s; 
+ }
+ 
+ #footer
+{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	font-family: 'Prompt', sans-serif;
+	margin-top: 100px;
+	font-size: x-small;
+	border-top: solid 1px #F3F5F4;
+	padding-top: 50px;
+	margin-bottom: 50px;
+}
+
+#footer ul
+{
+	list-style-type: none;
+}
+
+#footer a
+{
+	color: black;
+	text-decoration: none;
+}
+
+#footer a:hover
+{
+	color: #F3F5F4;
+	transition-duration: 0.4s;
+}
+
+.appli
+{
+	display: flex;
+}
+
+.reseaux
+{
+	display: flex;
+}
+
+.googleplay
+{
+	width: 123px;
+	height: 38px;
+	margin-right: 10px;
+	transition-duration: 0.4s;
+}
+
+.appstore
+{
+	width: 123px;
+	height: 38px;
+	transition-duration: 0.4s;
+}
+
+.fb
+{
+	width: 40px;
+	height: 40px;
+	margin-top: 10px;
+	border-radius: 50%;
+	margin-right: 27px;
+	background-image: url("images/fb.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	transition-duration: 0.4s;
+}
+
+.twitter
+{
+	width: 40px;
+	height: 40px;
+	margin-top: 10px;
+	border-radius: 50%;
+	margin-right: 27px;
+	background-image: url("images/twitter.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	transition-duration: 0.4s;
+}
+
+.insta
+{
+	width: 40px;
+	height: 40px;
+	margin-top: 10px;
+	border-radius: 50%;
+	margin-right: 27px;
+	background-image: url("images/insta.png");
+	background-repeat: no-repeat;
+	background-position: center;;
+	transition-duration: 0.4s;
+}
+
+
+.yt
+{
+	width: 40px;
+	height: 40px;
+	margin-top: 10px;
+	border-radius: 50%;
+	background-image: url("images/yt.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	transition-duration: 0.4s;
+}
+
+
+.yt:hover
+{
+	background-color: rgb(255,0,0);
+	background-image: url("images/ytb.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 40px;
+	height: 40px;
+}
+
+
+
+
+.twitter:hover
+{
+	background-color: rgb(29,161,242);
+	background-image: url("images/twitterb.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 40px;
+	height: 40px;
+}
+
+
+
+.fb:hover
+{
+	background-color: rgb(60,90,153);
+	background-image: url("images/fbb.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 40px;
+	height: 40px;
+}
+
+
+
+.insta:hover
+{
+	background-color: rgb(216,48,133);
+	background-image: url("images/instab.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 40px;
+	height: 40px;
+}
+
+.appstore:hover
+{
+	opacity: 70%;
+	
+}
+
+.googleplay:hover
+{
+	opacity: 70%;
+}
